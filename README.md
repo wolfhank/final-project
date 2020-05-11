@@ -52,8 +52,8 @@ You can read more about using conda environments in the [Managing Environments](
 To use git in a Binder instance, you have to set up your username and email as below:
 
 ```sh
-git config --global user.name "John Doe"
-git config --global user.email johndoe@example.com
+git config --global user.name "YHH"
+git config --global user.email wolfhankwolf@gmail.com
 ```
 
 To avoid doing this every time you use Binder, include your username and email in the [git_setup.sh](git_setup.sh) file, which will be run via [postBuild](postBuild) immediately after building the Binder instance.
