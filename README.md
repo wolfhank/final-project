@@ -1,4 +1,4 @@
-# Final Project Template
+# Final Project
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/py4ds/final-project/master?urlpath=lab/tree/final-project.ipynb)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/py4ds/final-project/blob/master/final-project.ipynb)
@@ -17,7 +17,7 @@ This repository contains a template for final projects.
 - Clone the repo using a shell (below) or [GitHub Desktop](https://desktop.github.com)
 
 ```sh
-git clone https://github.com/py4ds/final-project
+git clone https://github.com/wolfhank/final-project
 cd final-project
 jupyter lab
 ```
@@ -52,8 +52,8 @@ You can read more about using conda environments in the [Managing Environments](
 To use git in a Binder instance, you have to set up your username and email as below:
 
 ```sh
-git config --global user.name "John Doe"
-git config --global user.email johndoe@example.com
+git config --global user.name "YHH"
+git config --global user.email wolfhankwolf@gmail.com
 ```
 
 To avoid doing this every time you use Binder, include your username and email in the [git_setup.sh](git_setup.sh) file, which will be run via [postBuild](postBuild) immediately after building the Binder instance.
